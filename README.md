@@ -1,6 +1,12 @@
-# 팜팜
+# KT AIVLE SCHOOL 2기 BIG PROJECT - 팜팜
 
 * 팜팜은 농산물 가격 예측 서비스를 제공하고 표준거래계약서 작성을 도와드립니다.
+
+## 개발 기간
+* 2022.11.28 ~ 2023.01.06
+
+## 맡은 역할
+* AI modeling
 
 ## 개발 환경
 <img src="https://img.shields.io/badge/Visual Studio Code-007ACC?style=flat-square&logo=Visual Studio Code&logoColor=white"/> <img src="https://img.shields.io/badge/Jupyter Notebook-F37626?style=flat-square&logo=Jupyter&logoColor=white"/> <img src="https://img.shields.io/badge/Google Colab-F9AB00?style=flat-square&logo=Google Colab&logoColor=white"/> <img src="https://img.shields.io/badge/MySQL Workbench-4479A1?style=flat-square&logo=MySQL&logoColor=white"/> <img src="https://img.shields.io/badge/Git Bash-F05032?style=flat-square&logo=Git&logoColor=black"/> <img src="https://img.shields.io/badge/Anaconda Prompt-44A833?style=flat-square&logo=Anaconda&logoColor=black"/>
@@ -48,6 +54,9 @@
 ### 5) pip install을 할 때 error: Microsoft Visual C++ 14.0 or greater is required.
 >##### 1. https://visualstudio.microsoft.com/visual-cpp-build-tools/ 접속 후 Build Tools 다운로드 및 실행
 >##### 2. C++를 사용한 데스크톱 개발 체크 후 설치(7GB 정도 여유공간 필요)
+
+### 6) git에서 pull할때 error: The following untracked working tree files would be overwritten by merge:
+>##### git clean -d -f -f
 
 ## **ModuleNotFoundError 해결방법**
 ### ModuleNotFoundError: No module named 'mysqlclient'
